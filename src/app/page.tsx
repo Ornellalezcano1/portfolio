@@ -101,8 +101,12 @@ const content = {
         p3: "In 2025, I expanded my technical horizons by certifying as a QA Tester (Manual & Automation) and Fullstack Developer. I define myself as a lifelong learner; my toolkit never stops growing to build products that are not only beautiful but technically sound.",
         edu: "Education & Certification",
         eduList: [
-            { year: "2023", title: "Advanced UX/UI Certification", school: "Coderhouse" },
-            { year: "2020", title: "Bachelor of Graphic Design", school: "University of Buenos Aires" }
+            { year: "2023-2024", title: "UX/UI Specialized Certifications", school: "Google & LinkedIn Learning" },
+            { year: "2024", title: "Diploma in UX/UI Design", school: "UTN BA" },
+            { year: "2025", title: "Degree in Graphic Design", school: "UPC" },
+            { year: "2025", title: "Fullstack Developer Course", school: "XAcademy" },
+            { year: "2025", title: "QA Tester Manual Course", school: "XAcademy" },
+            { year: "2025", title: "QA Automation Course", school: "XAcademy" }
         ],
         certs: {
           title: "Licenses & Certifications",
@@ -142,7 +146,7 @@ const content = {
               num: '03', 
               title: 'Prototyping', 
               desc: 'Interactive Flows, Micro-interactions (Motion) & Wireframing.',
-              longDesc: "Bringing designs to life before coding. I build high-fidelity interactive prototypes to validate founders and interactions.",
+              longDesc: "Bringing designs to life before coding. I build high-fidelity interactive prototypes to validate founded and interactions.",
               tags: ["High-Fidelity", "Micro-interactions", "User Flows", "Wireframing", "Motion Design"]
             },
             { 
@@ -300,13 +304,17 @@ const content = {
       button: "Leer bio completa",
       overlay: {
         title: "Detrás del Pixel",
-        p1: "Mi viaje comenzó en la escuela de diseño gráfico, donde me enamoré de las retículas y la tipografía. Pero pronto me di cuenta de que los diseños estáticos no eran suficientes; quería construir sistemas con los que la gente pudiera interactuar.",
-        p2: "En los últimos años, he transicionado al espacio de productos digitales, trabajando con startups y empresas establecidas para refinar su presencia digital. Creo que la mejor experiencia de usuario es aquella que se siente invisible: donde el usuario logra su objetivo sin siquiera pensar en la interfaz.",
-        p3: "Cuando no estoy diseñando, puedes encontrarme explorando arquitectura brutalista, bebiendo demasiado café o intentando mantener vivas mis plantas.",
+        p1: "Mi viaje comenzó hace 5 años, impulsada por la curiosidad pura y proyectos personales. Lo que empezó como un hobby se transformó rápidamente en una búsqueda profesional. Hace dos años, decidí formalizar mi camino, comenzando con certificaciones especializadas de Google y LinkedIn.",
+        p2: "Obtuve mi Diplomatura en Diseño UX/UI de la UTN BA (2024) y actualmente curso la Licenciatura en Diseño Gráfico en la UPC (2do Año), sumando sólidas bases teóricas a mi práctica digital. Creo en el aprendizaje continuo como motor de la innovación.",
+        p3: "En 2025, expandí mis horizontes técnicos certificándome como QA Tester (Manual & Automation) y Desarrolladora Fullstack. Me defino como una aprendiz constante; mi caja de herramientas nunca deja de crecer para construir productos que no solo sean visualmente atractivos, sino técnicamente sólidos.",
         edu: "Educación y Certificaciones",
         eduList: [
-            { year: "2023", title: "Certificación Avanzada UX/UI", school: "Coderhouse" },
-            { year: "2020", title: "Licenciatura en Diseño Gráfico", school: "Universidad de Buenos Aires" }
+            { year: "2023-2024", title: "Certificaciones UX/UI", school: "Google y LinkedIn Learning" },
+            { year: "2024", title: "Diplomatura en Diseño UX/UI", school: "UTN BA" },
+            { year: "2025", title: "Tecnicatura en Diseño Gráfico", school: "UPC" },
+            { year: "2025", title: "Curso de Desarrollo Fullstack", school: "XAcademy" },
+            { year: "2025", title: "Curso de QA Manual", school: "XAcademy" },
+            { year: "2025", title: "Curso de QA Automatizado", school: "XAcademy" }
         ],
         certs: {
           title: "Certificaciones y Licencias",
@@ -904,7 +912,7 @@ export default function App() {
         </div>
       )}
 
-      {/* Navbar Desktop */}
+      {/* Navbar Escritorio */}
       <nav className="fixed top-0 w-full z-50 px-4 md:px-12 py-6 md:py-8 flex justify-between items-center bg-black backdrop-blur-md border-b border-white/10 md:mix-blend-difference">
         <a href="#" className="group flex flex-col overflow-hidden h-6 z-50 min-w-[120px]">
           <span className="text-sm font-medium tracking-widest uppercase transform group-hover:-translate-y-full transition-transform duration-500 ease-in-out text-white md:text-inherit">
@@ -965,7 +973,7 @@ export default function App() {
 
       <main className="pt-32 md:pt-40 pb-20 md:pb-0">
         
-        {/* 1. HERO */}
+        {/* 1. HERO --- */}
         <section className="px-4 md:px-12 mb-20 md:mb-32 relative">
           <div className="max-w-full md:max-w-[90vw]">
             <h1 className="flex flex-col text-[13vw] md:text-[11vw] leading-[0.9] md:leading-[0.85] tracking-tighter mix-blend-difference relative z-10"
